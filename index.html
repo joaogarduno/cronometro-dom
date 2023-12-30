@@ -4,7 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="]IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@500&display=swap" rel="stylesheet">
+  <!-- ICONS BOOTSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <!-- STYLE -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- FAVICON -->
   <link rel="shortcut icon" href="./img/arthefacto_favicon.png" type="image/x-icon">  
   <title>Cronometro | DOM JavaScript</title>
 </head>
@@ -16,10 +24,14 @@
         00:00:00
       </div>
   
-      <!--  -->
+      <!-- CONTENEDOR BOTONES -->
       <div class="contenedor-botones">
-        <button id="boton-inicio-pausa" class="boton iniciar">Iniciar</button>
-        <button id="boton-reiniciar" class="">Reiniciar</button>
+        <button id="boton-inicio-pausa" class="boton iniciar">
+          <i class="bi bi-play-fill"></i>
+        </button>
+        <button id="boton-reiniciar" class="boton">
+          <i class="bi bi-arrow-counterclockwise"></i>
+        </button>
       </div>
       
     </div>
